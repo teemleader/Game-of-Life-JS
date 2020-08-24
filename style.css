@@ -1,0 +1,32 @@
+#startStopMenu {
+	float: left;
+}
+
+#gameSpeed {
+	display: inline;
+}
+
+#gameSpeedMenu {
+	margin-left: 30px;
+	float: left;
+}
+
+#gameCanvas {
+	clear: both;
+}
+
+#game {
+	display: none;
+}
+
+#gamezoom {
+	border: 1px solid black;
+	float: left;
+}
+
+#chart {
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+ 

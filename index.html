@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta enctype="utf-8" />
+	<title>GAME</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="startStopMenu">
+		<input type="button" value="START!" id="startGame" />
+		<input type="button" value="STOP!" id="stopGame" />
+		<input type="button" value="CLEAR!" id="clearGame" />
+	</div>
+	<div id="gameSpeedMenu">
+		Speed: <div id="gameSpeed"></div>
+		<input type="button" value="-" id="speedMinus" />
+		<input type="button" value="+" id="speedPlus" />
+	</div>
+	<br /><br />
+	<div id="gameCanvas">
+		<canvas id="game" width="80" height="80"></canvas>
+		<canvas id="gamezoom" width="799" height="799"></canvas>
+		<div id="chartDiv">
+			<canvas id="chart" width="400" height="200"></canvas>
+		</div>
+	</div>
+	
+	<script src="main.js"></script>
+</body>
+</html>
